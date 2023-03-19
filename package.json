@@ -1,0 +1,22 @@
+{
+  "name": "isapirequestvalid",
+  "version": "1.0.0",
+  "description": "javascript library to check the api format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhaysatpute88/APIFormatCheck.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Abhay Satpute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhaysatpute88/APIFormatCheck/issues"
+  },
+  "homepage": "https://github.com/Abhaysatpute88/APIFormatCheck#readme"
+}
