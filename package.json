@@ -1,6 +1,6 @@
 {
   "name": "isapirequestvalid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "javascript library to check the api format.",
   "main": "index.js",
   "scripts": {
