@@ -24,18 +24,6 @@ This is the second check within the function to determine if expectedProperties 
 
 javascript
 
-	for (const [propertyName, propertyType] of Object.entries(expectedProperties)) {
-	  if (!request.hasOwnProperty(propertyName) || typeof request[propertyName] !== propertyType) {
-	    return false;
-	  }
-	}
-
-This is the core of the function that checks if request has all the expected properties and their types match with the expected properties specified in expectedProperties. This is done using a for...of loop to iterate over each property in expectedProperties.
-
-Within each iteration of the loop, it checks if request has the current propertyName by calling hasOwnProperty() on the request object. If the property is not found, or if the property exists but its type does not match with the propertyType defined in expectedProperties, it immediately returns false, otherwise it will return true
-
-javascript
-
     for (const [propertyName, propertyType] of Object.entries(expectedProperties)) {
 
 for is a JavaScript keyword used to initiate a loop.
